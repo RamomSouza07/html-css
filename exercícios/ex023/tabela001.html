@@ -13,20 +13,17 @@
         table{
             border-collapse: collapse;
             width: 200px;
-            border: 5px solid lightseagreen;
+            height: 200px;
         }
-
-        tr.linha{
-         background-color: lightgray;   
-        }
-        
         td{
             border: 1px solid black;
             padding: 6px;
+            text-align: center;
+            vertical-align: middle;
         }
 
-        td.dado{
-            background-color: orange;
+        .numero{
+            text-align: right;
         }
 
     </style>
@@ -42,7 +39,7 @@
     -->
     <table><!--Tabela-->
         <tr><!--Primeira Linha-->
-            <td class="dado">A1</td>
+            <td>A1</td>
             <td>B1</td>
             <td>C1</td>
             <td>D1</td>
@@ -53,7 +50,7 @@
             <td>C2</td>
             <td>D2</td>
         </tr>
-        <tr class="linha"><!--Terceira Linha-->
+        <tr><!--Terceira Linha-->
             <td>A3</td>
             <td>B3</td>
             <td>C3</td>
