@@ -12,6 +12,7 @@
 
         table{
             width: 500px;
+            position: relative;
         }
 
         caption{
@@ -19,6 +20,12 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
+        }
+
+        thead > tr > th{
+           position: sticky;
+           top: 0;
+           background-color: rgb(24, 24, 24);
         }
 
         thead, tfoot{
@@ -54,7 +61,7 @@
     -->
     <table>
         <caption>População das Unidades Federativas</caption>
-        <thead>
+        <thead >
             <tr>
                 <th scope="col">Estado</th>
                 <th scope="col" style=" width: 10px;">População</th>
