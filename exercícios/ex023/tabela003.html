@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Células</title>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .cabecalho{
+            color: white;
+            background-color: rgb(109, 109, 109);
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="2">K</td>
+            
+        </tr>
+    </table>
+    
+    <table>
+        <tr class="cabecalho">
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td class="cabecalho">A</td>
+            <td style="background-color: rgb(255, 190, 70);"></td>
+            <td style="background-color: rgb(255, 190, 70);"></td>
+            <td style="background-color: rgb(121, 7, 7);" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td class="cabecalho">B</td>
+            <td style="background-color: rgb(5, 139, 23);" colspan="2"></td>
+            
+        </tr>
+        <tr>
+            <td class="cabecalho">C</td>
+            <td style="background-color: rgb(255, 190, 70);"></td>
+            <td style="background-color: rgb(15, 123, 211);" colspan="2"></td>
+            
+        </tr>
+    </table>
+</body>
+</html>
