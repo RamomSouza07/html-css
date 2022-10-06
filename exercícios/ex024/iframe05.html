@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        h1{
+            text-align: center;
+            margin-top: 25px;
+        }
+        h2{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        div.video{
+            text-align: center;
+        }
+        div > iframe#pao{
+            border: 2px solid rgb(109, 109, 109);
+            box-shadow: 2px -3px 2px 0px black;
+        }
+        div.maps{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        div > iframe#sf{
+            box-shadow: 2px -3px 2px 0px black;
+            border: 2px solid rgb(109, 109, 109);
+        }
+    </style>
+</head>
+<body>
+    <h1>Conteúdos dentro de iframes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut minima pariatur unde, eius aliquam ratione accusamus consequuntur error. Cum ullam officiis deserunt nesciunt accusantium quam recusandae minus dignissimos ad qui.</p>   
+    
+    <h2>Vídeos</h2>
+    
+    <div class="video">
+        <iframe id="pao" width="560" height="315" src="https://www.youtube.com/embed/2sYmi5XL0B0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <h2>Mapas</h2>
+    
+    <div class="maps">
+        <iframe id="sf" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927.0903620312414!2d-41.744383870828784!3d-21.649792552605735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdb2192d90d3cb%3A0x9012021835fe355c!2sR.%20Laurindo%20Pita%2C%20394%20-%20S%C3%A3o%20Fid%C3%A9lis%2C%20RJ%2C%2028400-000!5e0!3m2!1spt-BR!2sbr!4v1664994153050!5m2!1spt-BR!2sbr" width="75%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="documentos">
+        <iframe id="bolsonaro" src="https://docs.google.com/presentation/d/e/2PACX-1vQg09GPfxyuT_i-U9I8s7Lgfc6TH3AlMo7wQscfOWxm2kDRHmRj3G5WjxYPoPSPMCaNxqLEWEgDxBC1/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    
+</body>
+</html>
