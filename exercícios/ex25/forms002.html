@@ -4,18 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        /* 
+
+        Como dar um estilo para o botão de input
+        
+        input[type="submit" i] {
+            margin: 5px;
+            background-attachment: fixed;
+            background-color: lightgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(255, 0, 0);
+            border-radius: 3px;
+            box-shadow: 3px 2px 12px 0px #6e6e6ebd;
+        }
+        */
+    </style>
     <title>Formulário 2</title>
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iusu">Usuário</label>
-            <input type="text" name="iusu" id="iusu">
+            <input type="text" name="iusu" id="iusu" required minlength="3" maxlength="12" size="12" placeholder="Nome do Usuário">
         </p>
         <p>
             <label for="isen">Senha</label>
-            <input type="password" name="isen" id="isen">
+            <input type="password" name="isen" id="isen" required minlength="3" size="12" placeholder="Senha do Usuário">
+        </p>
+        <p>
+            <label for="idata">Data</label>
+            <input type="date" name="idata" id="idata">
         </p>
         <p>
             <input type="submit" value="Enviar">
