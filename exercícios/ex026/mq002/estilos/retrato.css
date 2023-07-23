@@ -3,5 +3,5 @@
 /*Aparelho em Modo Retrato (Portrait)*/
 
 body {
-    background: url(../imagens/cev-portrait.jpg);
+    background-image: url(../imagens/cev-portrait.jpg);
 }

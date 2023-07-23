@@ -3,5 +3,5 @@
 /*Aparelho em Modo Paisagem (Landscape)*/
 
 body {
-    background: url(../imagens/cev-landscape.jpg);
+    background-image: url(../imagens/cev-landscape.jpg);
 }
