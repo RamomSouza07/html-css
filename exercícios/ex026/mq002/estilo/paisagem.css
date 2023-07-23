@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
-/*Aparelho em Modo Paisagem (Landscap)*/
+/*Aparelho em Modo Paisagem (Landscape)*/
+
+body {
+    background: url(../imagens/cev-landscape.jpg);
+}
