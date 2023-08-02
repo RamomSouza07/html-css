@@ -62,10 +62,6 @@ Grandes telas: (min-width: 1200px);
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
-
-    main{
-        width: 700px;
-    }
     img#print{display: none;}
     img#phone{display: none;}
     img#tablet{display: none;}
