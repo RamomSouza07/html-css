@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="list" class="material-icons" onclick="clickMenu()">list</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Conteúdo</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Saiba mais</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores eveniet iste rem, omnis maiores est, nesciunt suscipit doloribus nisi non possimus necessitatibus. Repellendus sapiente minima temporibus consequuntur nobis quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam numquam ducimus repellendus molestias. Molestiae, autem, est perferendis rem at praesentium ad aspernatur mollitia voluptate quibusdam voluptas. Amet animi molestias consequuntur?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis, quas officiis ipsum nam ipsam saepe sapiente officia explicabo qui a at quo velit sunt blanditiis? Est temporibus et repellat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, tempore consectetur. Cupiditate, eveniet quia culpa modi similique repellat voluptatum exercitationem nisi harum adipisci ad, atque laborum doloribus consequuntur porro. Rem.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia sunt soluta, cumque, laborum vitae nulla ut assumenda asperiores consequatur alias ducimus? Quos est recusandae dolorum delectus vero aspernatur repellat vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, veritatis! Qui, placeat nesciunt! Suscipit incidunt voluptate enim sapiente possimus, pariatur officia doloribus nesciunt officiis impedit perspiciatis fuga blanditiis, quae sint?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }  else{
+                itens.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
