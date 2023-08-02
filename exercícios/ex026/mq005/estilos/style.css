@@ -40,6 +40,7 @@ menu{
 
 menu > ul{
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 menu > ul > li > a{
@@ -60,6 +61,7 @@ main{
     width: 90vw;
     background-color: white;
     margin: auto;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
 }
